@@ -1,0 +1,107 @@
+body {
+    background-color: white; /* Set the page background color to white */
+    color: black; /* Adjust text color for better contrast on white background */
+    font-family: 'Roboto', sans-serif; /* Applies a clean and professional font */
+    margin: 0; /* Removes default browser margin */
+    padding: 0; /* Removes default browser padding */
+    display: flex; /* Enables flexible layout for child elements */
+    flex-direction: column; /* Stacks child elements vertically */
+    min-height: 100vh; /* Ensures the body takes up the full viewport height */
+}
+
+nav {
+    background-color: #003366; /* Set the header background color to #003366 */
+    padding: 2em; /* Adds space inside the header for a larger appearance */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+}
+
+nav ul {
+    list-style: none; /* Removes default bullet points from the list */
+    display: flex; /* Aligns navigation items horizontally */
+    justify-content: space-around; /* Distributes items evenly across the header */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+}
+
+nav a {
+    color: #003366; /* Sets the button text color to a dark blue for visibility */
+    background-color: white; /* Matches the button background with the header */
+    text-decoration: none; /* Removes underline from links */
+    font-weight: bold; /* Makes the text stand out */
+    padding: 12px 20px; /* Adds space inside the buttons for a larger clickable area */
+    border-radius: 4px; /* Rounds the button edges for a modern look */
+    transition: background-color 0.3s; /* Smoothly changes the background color on hover */
+    font-size: 18px; /* Increases the font size for better readability */
+}
+
+nav a:hover {
+    background-color: #f4f4f4; /* Changes the button background slightly on hover for feedback */
+}
+
+h1 {
+    font-size: 64px; /* Makes the main heading prominent */
+    text-align: center; /* Centers the heading on the page */
+    margin-top: 20px; /* Adds space above the heading */
+}
+
+h2 {
+    font-size: 40px; /* Makes the subheading smaller than the main heading but still noticeable */
+    text-align: center; /* Centers the subheading on the page */
+    margin-top: 10px; /* Adds space above the subheading */
+}
+
+#home {
+    text-align: center; /* Centers content inside the card */
+    margin: auto; /* Centers the card both vertically and horizontally */
+    border: 2px solid white; /* Adds a solid white border to define the card */
+    border-radius: 15px; /* Rounds the card edges for a softer appearance */
+    padding: 40px; /* Adds space inside the card for better spacing */
+    width: 25%; /* Reduce the width of the profile card box */
+    height: 50%; /* Sets the card height to match the width for a box shape */
+    display: flex; /* Enables flexible layout for child elements */
+    flex-direction: column; /* Stacks child elements vertically */
+    justify-content: center; /* Centers child elements inside the card */
+    align-items: center; /* Aligns child elements horizontally */
+    background-color: #003366; /* Matches the card background with the page */
+    color: white; /* Set all text inside the card box to white */
+}
+
+#home h3 {
+    font-size: 24px; /* Add a smaller heading inside the card */
+    color: rgb(255, 255, 255); /* Ensure the text is readable on the dark background */
+    margin-top: 10px; /* Add spacing above the heading */
+}
+
+#home ul {
+    list-style: none; /* Remove bullet points from the list inside the profile card box */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+#home ul li {
+    margin-bottom: 15px; /* Add spacing between list items inside the profile card box */
+}
+
+#contact ul {
+    list-style: none; /* Remove bullet points from the list inside the card box */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+#contact ul li {
+    margin-bottom: 10px; /* Add spacing between list items inside the card box */
+}
+
+footer {
+    background-color: #333; /* Matches the footer background with the page */
+    color: white; /* Ensures footer text is readable */
+    text-align: center; /* Centers the footer text */
+    padding: 1em 0; /* Adds space inside the footer for better spacing */
+    margin-top: auto; /* Pushes the footer to the bottom of the page */
+}
+
+p {
+    font-family: 'Roboto', sans-serif; /* Ensures paragraph text matches the overall font style */
+    text-align: center; /* Centers paragraph text for a balanced layout */
+    font-size: 18px; /* Sets a readable font size for paragraphs */
+}
